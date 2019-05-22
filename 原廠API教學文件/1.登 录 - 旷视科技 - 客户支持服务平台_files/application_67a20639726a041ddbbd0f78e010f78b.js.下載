@@ -1,0 +1,47 @@
+$(".category-section").append(function(index, element){
+    var a = $(this).find("h2 a");
+    var link = a.attr("href");
+    
+    var text = a.text();
+    a.text("");
+    
+    var textList = text.split("-");
+    var h3 = $("<h4></h4>").text(textList[0]);
+    var p = $("<p></p>").text(textList[1]);
+    a.append(h3, p);
+    
+    var more = $("<a></a>").attr("href", link).text("查看更多");
+    return more;
+});
+
+/*$(".header-nav-list a.submit-a-request").text("我要提问");*/
+$("div.dropdown-toggle img").attr("src", "https://megvii.kf5.com/attachments/download/5456483/0015b6c037ae44fc9c34a52e99cdee8/");
+$("div.dropdown-toggle img").css("display", "block");
+$("body main").prepend(function(index, element){
+    var breadcrumbs = $(".sub-nav");
+    //alert(breadcrumbs[0].innerHTML);
+    if(breadcrumbs.size()) {
+        var header = '<header class="main-header"><div class="wrap">' + breadcrumbs[0].innerHTML + '</div></header>';
+        breadcrumbs.remove();
+        return header;
+    }
+});
+
+$(".category-section").first().find('li').each(function(){
+    var nameId = $(this).attr("class").split("-", 2)[1];
+    var min = 1094774;
+    var max = 1094780;
+    if(parseInt(nameId) <= max && parseInt(nameId) >= min) {
+        $(this).remove();
+    }
+})
+
+$(".section-tree").children("div").each(function(){
+    var nameId = $(this).attr("class").split("-", 2)[1];
+    var min = 1094774;
+    var max = 1094780;
+    if(parseInt(nameId) <= max && parseInt(nameId) >= min) {
+        console.log(nameId);
+        $(this).remove();
+    }
+})
