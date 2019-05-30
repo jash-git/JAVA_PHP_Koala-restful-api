@@ -1,0 +1,6 @@
+C:\Users\jashliao\Desktop\CS_login_KOALA\CS_login_KOALA\bin\Debug\CS_login_KOALA.exe.config
+C:\Users\jashliao\Desktop\CS_login_KOALA\CS_login_KOALA\bin\Debug\CS_login_KOALA.exe
+C:\Users\jashliao\Desktop\CS_login_KOALA\CS_login_KOALA\bin\Debug\CS_login_KOALA.pdb
+C:\Users\jashliao\Desktop\CS_login_KOALA\CS_login_KOALA\obj\Debug\CS_login_KOALA.csprojResolveAssemblyReference.cache
+C:\Users\jashliao\Desktop\CS_login_KOALA\CS_login_KOALA\obj\Debug\CS_login_KOALA.exe
+C:\Users\jashliao\Desktop\CS_login_KOALA\CS_login_KOALA\obj\Debug\CS_login_KOALA.pdb

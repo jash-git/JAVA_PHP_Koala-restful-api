@@ -16,4 +16,5 @@ PHP[authLogin API 模擬]~koala_authLogin.php
 JAVA[呼叫 authLogin API]
 	01.按照參考資料建立 authLogin 函數
 	
-	
+使用C# 用 JAVA 為參照 實際測試真實API 可以得到下面結果
+	{"code":0,"data":{"avatar":"","company":{"attendance_on":true,"attendance_weekdays":[1,2,3,4,5],"consigner":"\u66f2","create_time":1558543636,"data_version":1,"deployment":1,"door_range":[[0,0],[24,0]],"door_weekdays":[1,2,3,4,5,6,7],"feature_version":7,"fmp_on":false,"full_day":true,"id":1,"logo":"/static/images/logo.png","name":"\u5ba2\u6237","notdetermined_on":true,"remark":"","scenario":"\u6b63\u5e38\u4f7f\u7528","upload":true,"yellowlist_warn":true},"company_id":1,"id":2,"organization_id":null,"password_reseted":true,"permission":[],"role_id":2,"username":"test@admin.com","verify":false},"page":{}}	
